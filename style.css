@@ -1,0 +1,27 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 15px;
+	background-color: black;
+
+}
+
+.gradient {
+    height: 100vh;
+    background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background-size:  200% 200%;
+}
